@@ -241,7 +241,7 @@ Pl.collide(boss);
     }
   }
   }
-  //upgarding ure skills
+  //upgarding your skills
   if(skillpoints >0){
 if(keyWentDown("n")){
   if(speed===10){
@@ -257,7 +257,7 @@ fill(rgb(76,81,81));
   fill(rgb(50, 145, 135));
   text("Player-speed " +speed,0,345);
   if(keyWentDown("h")){
-    if(health === 10){
+    if(health === 20){
     }else{
      health = health + 1;
      skillpoints = skillpoints -1;
@@ -274,7 +274,7 @@ fill(rgb(76,81,81));
   }
   text("bullet-speed " + bullspeed,0,375);
   if(keyWentDown("v")){
-    if(damge ===10 ){
+    if(damge ===100 ){
     }else{
      damge = damge +1;
      skillpoints = skillpoints -1;
